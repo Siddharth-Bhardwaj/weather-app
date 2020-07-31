@@ -1,0 +1,238 @@
+body {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 73%;
+  margin: 0 auto;
+  padding: 0% 7%;
+  background: #23272a;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 69%;
+}
+
+h1 {
+  font-size: 5vw;
+  margin-bottom: 1.5vw;
+}
+
+h1:hover {
+  color: #7289da;
+}
+
+#head {
+  margin-right: 2.5%;
+  color: #7289da;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:active {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #7289da;
+}
+
+a:active {
+  text-decoration: none;
+  color: #7289da;
+}
+
+.headerLink {
+  float: left;
+  width: 5vw;
+  text-align: center;
+  font-size: 1.4vw;
+  font-weight: bold;
+  margin-right: 4vw;
+}
+
+.headerHr {
+  color: #7289da;
+  margin-top: 10px;
+  float: right;
+}
+
+.headerLinkContainer {
+  float: right;
+}
+
+.headerContainer {
+  margin-bottom: 5vw;
+}
+
+.formContainer {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#submitBtn {
+  color: white;
+  padding-bottom: 0vw;
+}
+
+#submitBtn:hover {
+  color: #7289da;
+}
+
+.fas fa-search {
+  font-size: 5vw;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.9vw;
+  padding-bottom: 0%;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5vw;
+}
+
+input[type="text"] {
+  border: 0.3vw solid #7289da;
+  border-radius: 0.75vw;
+  width: 90%;
+  padding: 1vw 1.5vw 0.75vw 1.5vw;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.weatherCard {
+  background-color: #2c2f33;
+  width: 80%;
+  height: auto;
+  margin: 2vw auto;
+  padding: 2% 4%;
+  border-radius: 2vw;
+  height: 18vw;
+}
+
+.leftSide {
+  width: 40%;
+  position: relative;
+  overflow: auto;
+  float: left;
+}
+
+.leftTop {
+  padding: 1vw 1vw 0vw 1vw;
+  height: 8vw;
+  display: inline-block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.icon {
+  padding: 0%;
+  height: 7vw;
+  width: 7vw;
+  vertical-align: middle;
+  margin: 0 1.5vw;
+}
+
+.temperature {
+  font-size: 2.5vw;
+  vertical-align: middle;
+}
+
+.cityName {
+  font-size: 1.5vw;
+  margin: 1vw 2.7vw;
+  text-align: center;
+}
+
+.coordinates {
+  color: #99aab5;
+  text-align: center;
+  font-size: 1vw;
+  margin-bottom: 2vw;
+}
+
+.centerLine {
+  border: 2px solid #7289da;
+  margin: 3vw 1.5vw 1.7vw 0vw;
+  height: 10.7vw;
+  float: left;
+}
+
+.rightSide {
+  width: 40%;
+  position: relative;
+  overflow: auto;
+  vertical-align: middle;
+  float: left;
+  padding: 0.5vw 2.2vw;
+}
+
+.main {
+  font-size: 2.5vw;
+  padding: 0vw;
+  margin-bottom: 1vw;
+}
+
+.topRow {
+  margin-top: 0.5vw;
+}
+
+.midRow {
+  margin-top: 0vw;
+}
+
+.botRow {
+  margin-top: 0vw;
+}
+
+.secCol {
+  padding-left: 3vw;
+}
+
+table {
+  font-size: 1.05vw;
+}
+
+#footerIcon {
+  float: right;
+  margin: 1vw;
+  font-size: 2vw;
+}
+
+.aboutH1 {
+  font-size: 3vw;
+}
+
+.aboutPara {
+  font-size: 1.1vw;
+  line-height: 1.8vw;
+  letter-spacing: 0.01vw;
+}
+
+#aboutIcon {
+  margin-right: 1vw;
+  margin-bottom: 1.5vw;
+}
+
+.helpPara {
+  font-size: 1.15vw;
+  text-align: center;
+  padding-top: 1vw;
+}
+
+.helpPara1 {
+  /* font-size: 1.5vw; */
+  font-size: 1.15vw;
+  text-align: center;
+}

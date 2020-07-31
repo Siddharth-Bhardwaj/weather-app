@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+    <link rel="stylesheet" media="screen and (min-device-width: 1441px)" href="/css/styles.css">
+    <link rel="stylesheet" media="screen and (max-device-width: 1440px)" href="/css/mobstyles.css">
+    <script src="https://kit.fontawesome.com/e6e2bca0e7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="headerContainer">
+        {{>header}}
+
+    </div>
+    <div class="formContainer">
+        <form action="/weather" method="GET">
+            <input type="text" name="city" id="formInput">
+            <button type="submit" class="btn">
+                <i class="fas fa-search" id="submitBtn"></i>
+            </button>
+        </form>
+    </div>
+    <div class="weatherCard">
+        <div class="leftSide">
+            <div class="leftTop">
+
+                <img src={{iconSrc}} class="icon">
+                <span class="temperature">{{temperature}}<span>&#176;C</span> </span>
+            </div>
+
+
+            <div class="leftBottom">
+                <p class="cityName">{{cityName}}</p>
+                <p class="coordinates">{{latitude}}, {{longitude}}</p>
+                {{!-- <p>{{longitude}}</p> --}}
+            </div>
+
+        </div>
+        <div class="centerLine">
+
+        </div>
+        <div class="rightSide">
+            <p class="main">{{main}}</p>
+
+            <table class="data">
+                <tr>
+                    <td class="fCol">
+                        <p class="topRow"><span style="color: #99aab5;">Feels like</span>
+                            {{feelsLike}}<span>&#176;C</span>
+                        </p>
+                    </td>
+
+                    <td class="secCol">
+                        <p class="topRow"><span style="color: #99aab5;">Pressure</span> {{pressure}} hPa
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="fCol">
+                        <p class="midRow"><span style="color: #99aab5;">Humidity</span>
+                            {{humidity}}%
+                        </p>
+                    </td>
+
+                    <td class="secCol">
+                        <p class="midRow"><span style="color: #99aab5;">Cloudiness</span> {{clouds}}%
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="fCol">
+                        <p class="botRow"><span style="color: #99aab5;">Winds</span> {{windSpeed}} m/s
+                        </p>
+                    </td>
+
+                    <td class="secCol">
+                        <p class="botRow"><span style="color: #99aab5;">Visibility</span> {{visibility}} m
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    {{>footer}}
+
+    {{!-- {{>footer}} --}}
+</body>

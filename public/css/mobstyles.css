@@ -1,0 +1,260 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 0% 10%;
+  background: #23272a;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 15vw;
+  text-align: center;
+}
+
+h1:hover {
+  color: #7289da;
+}
+
+#head {
+  margin-right: 3vw;
+  color: #7289da;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:active {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #7289da;
+}
+
+a:active {
+  text-decoration: none;
+  color: #7289da;
+}
+
+.headerLink {
+  display: inline-block;
+  margin: 0 5vw;
+}
+
+.headerHr {
+  color: #7289da;
+  margin-top: 10px;
+  float: right;
+}
+
+.headerLinkContainer {
+  text-align: center;
+  font-size: 3vw;
+}
+
+.headerContainer {
+  margin-top: 25vw;
+  margin-bottom: 9vw;
+}
+
+.formContainer {
+  box-sizing: border-box;
+}
+
+#submitBtn {
+  color: white;
+  padding-bottom: 0vw;
+}
+
+#submitBtn:hover {
+  color: #7289da;
+}
+
+.fas fa-search {
+  font-size: 5vw;
+}
+
+.btn {
+  width: 20%;
+  padding: 1.33vw;
+  background: #7289da;
+  color: black;
+  font-size: 3vw;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: auto;
+  border-radius: 1.2vw;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5vw;
+}
+
+input[type="text"] {
+  padding: 1.5vw;
+  font-size: 2.5vw;
+  border: 1px solid grey;
+  display: inline-block;
+  width: 74%;
+  background: #f1f1f1;
+  border-radius: 1.2vw;
+}
+
+.weatherCard {
+  background-color: #2c2f33;
+  width: 80%;
+  height: auto;
+  margin: 10vw auto;
+  padding: 10% 10%;
+  border-radius: 2vw;
+}
+
+.leftSide {
+  width: 67%;
+  position: relative;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.leftTop {
+  padding: 1vw 1vw 0vw 1vw;
+  height: 8vw;
+  display: inline-block;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.icon {
+  padding: 0%;
+  height: 10vw;
+  width: 10vw;
+  vertical-align: middle;
+  margin: 0 1.5vw;
+}
+
+.temperature {
+  font-size: 6vw;
+  vertical-align: middle;
+}
+
+.cityName {
+  font-size: 3vw;
+  margin: 1vw 2.7vw;
+  text-align: center;
+}
+
+.coordinates {
+  color: #99aab5;
+  text-align: center;
+  font-size: 2vw;
+  margin-bottom: 2vw;
+}
+
+.leftBottom {
+  margin: 4vw;
+}
+
+.centerLine {
+  border: 2px solid #7289da;
+  margin: 3vw auto;
+  width: 85%;
+}
+
+.rightSide {
+  position: relative;
+  overflow: auto;
+  vertical-align: middle;
+  padding: 0.5vw 2.2vw;
+  margin: 2vw auto;
+}
+
+.main {
+  font-size: 3.5vw;
+  padding: 0vw;
+  text-align: center;
+}
+
+.topRow {
+  margin-top: 0.5vw;
+}
+
+.midRow {
+  margin-top: 0vw;
+  text-align: center;
+}
+
+.botRow {
+  margin-top: 0vw;
+}
+
+.secCol {
+  padding-left: 6vw;
+  width: 25vw;
+  text-align: center;
+}
+
+.fcol {
+  width: 25vw;
+  text-align: center;
+}
+
+table {
+  font-size: 2.5vw;
+  margin: 0 auto;
+  text-align: center;
+}
+td {
+  padding: auto 5vw;
+}
+
+#footerIcon {
+  float: right;
+  margin: 5vw;
+  font-size: 5vw;
+}
+
+.aboutH1 {
+  font-size: 5vw;
+}
+
+.aboutPara {
+  line-height: 1.8vw;
+  letter-spacing: 0.01vw;
+  font-size: 1vw;
+  margin-bottom: 8vw;
+}
+
+#aboutIcon {
+  margin-right: 5vw;
+  margin-bottom: 3vw;
+}
+
+.helpPara {
+  font-size: 1.15vw;
+  text-align: center;
+  padding-top: 1vw;
+}
+
+.helpPara1 {
+  /* font-size: 1.5vw; */
+  font-size: 1.15vw;
+}
