@@ -18,11 +18,8 @@ footer {
 }
 
 .footerIcon1 {
-  margin-top: 1vw;
-  font-size: 1.5vw;
   color: #616972;
-  vertical-align: middle;
-  padding-top: 14vw;
+  line-height: 14vw;
 }
 
 h1 {
