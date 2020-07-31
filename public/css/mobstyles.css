@@ -17,6 +17,14 @@ footer {
   width: 90%;
 }
 
+.footerIcon1 {
+  margin-top: 1vw;
+  font-size: 1.5vw;
+  color: #616972;
+  vertical-align: middle;
+  padding-top: 14vw;
+}
+
 h1 {
   font-size: 15vw;
   text-align: center;
@@ -257,4 +265,5 @@ td {
 .helpPara1 {
   /* font-size: 1.5vw; */
   font-size: 1.15vw;
+  text-align: center;
 }
