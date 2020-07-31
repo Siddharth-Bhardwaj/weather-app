@@ -4,6 +4,7 @@ const hbs = require("hbs");
 const weather = require("openweather-apis");
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 // define paths for express congig
 const publicDirectoryPath = path.join(__dirname, "../public");
@@ -166,6 +167,6 @@ app.get("*", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log("Server running at localhost/3000");
+app.listen(port, () => {
+  console.log("Server running at port " + port);
 });
